@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags
+        ============================================= -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Majesty by creative-wp - Responsive HTML5 template">
+    <meta name="author" content="creative-wp">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- Your Title Page
+        ============================================= -->
+    <title>Majesty | Multipurpose & One Page Restaurants Template</title>
+    <!-- Favicon Icons
+         ============================================= -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <!-- Standard iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+    <!-- Retina iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <!-- Standard iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <!-- Retina iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+    <!-- Bootstrap Links
+         ============================================= -->
+    <!-- Bootstrap CSS  -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Plugins
+         ============================================= -->
+    <!-- Owl Carousal -->
+    <link rel="stylesheet" href="stylesheets/owl.carousel.css">
+    <link rel="stylesheet" href="stylesheets/owl.theme.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="stylesheets/animate.css">
+    <!-- Date Picker -->
+    <link rel="stylesheet" href="stylesheets/jquery.datetimepicker.css">
+    <!-- Pretty Photo -->
+    <link rel="stylesheet" href="stylesheets/prettyPhoto.css">
+    <!-- Font awsome icons -->
+    <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+    <!-- General Stylesheet
+        ============================================= -->
+    <!-- Custom Fonts Setup via Font-face CSS3 -->
+    <link href="fonts/fonts.css" rel="stylesheet">
+    <!-- Main Template Styles -->
+    <link href="stylesheets/main.css" rel="stylesheet">
+    <!-- Main Template Responsive Styles -->
+    <link href="stylesheets/main-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="intro/generatecolor/css/colpick.css"/>
+    <!--[if lt IE 9]>
+    <script src="javascripts/libs/html5shiv.js"></script>
+    <script src="javascripts/libs/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .intro-page h3 {
+            color: #8f8f8f;
+        }
+
+        .intro-page h3 span.label {
+            font-size: 14px !important;
+            font-family: 'Open Sans', sans-serif;
+            padding: 2px 10px;
+            margin: 0 5px;
+            position: relative;
+            top: -12px;
+            line-height: normal;
+        }
+
+        .intro-page h3 span.amrican {
+            background: #773f23;
+        }
+
+        .intro-page h3 span.asian {
+            background: #dd0301;
+        }
+
+        .intro-page h3 span.burger {
+            background: #fc923c;
+        }
+
+        .intro-page h3 span.bakery {
+            background: #d85b7a;
+        }
+
+        .intro-page h3 span.cafe {
+            background: #af9476;
+        }
+
+        .intro-page h3 span.pizza {
+            background: #649b3e;
+        }
+
+        a .center-block {
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+        }
+
+        a .center-block:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body class="animation-scoll">
+<!-- Loader
+    ============================================= -->
+<div id="loader">
+    <div class="loader-item"><img src="img/logo_intro.png" alt="">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+</div>
+<!-- End Loader -->
+<!-- Document Wrapper
+    ============================================= -->
+<div id="wrapper">
+    <!-- Parallax BG
+          ============================================= -->
+    <section data-scroll-index="0" class=" dark clearfix">
+        <!-- Bg Parallax -->
+        <div id="bg-parallax" class="fullheight">
+            <div class="bcg"
+                 data-center="background-position: 50% 0px;"
+                 data-bottom-top="background-position: 50% 100px;"
+                 data-top-bottom="background-position: 50% -100px;"
+                 data-anchor-target="#bg-parallax"
+                 style="background-image:url('intro/header.jpg');"
+            >
+                <div class="bg-transparent">
+                    <!-- Slider content -->
+                    <div class="slider-content ">
+                        <!-- Text Rotater -->
+                        <!--<p class=" padding-b-40"><img src="img/logo_intro.png" alt="Majesty Logo"-->
+                        <!--class="img-responsive center-block"></p>-->
+                        <ul class="text-rotator">
+                            <li>
+                                <h1>Welcome to CHANDNI HALLS</h1>
+                            </li>
+                            <li>
+                                <h1>The best place for the ceremony, feasting, entertainment</h1>
+                            </li>
+                            <li>
+                                <h1>Happy moments forever</h1>
+                            </li>
+                        </ul>
+                        <!-- End Text Rotater -->
+                        <p class="mt30 text-uppercase1">
+                            This gorgeous 1400 person facility with luxury hotel rooms<br/>
+                            suitable for Chandni event guests, business and families. <br/>
+                        </p>
+                        <!--<p class="mt50 text-uppercase1"> Booking now</p>-->
+                    </div>
+                    <!-- End Slider content -->
+                    <a data-scroll-nav="1" href="#" class="go-down"><i class="fa fa-angle-double-down"></i></a></div>
+                <!-- End Bg Transparent -->
+            </div>
+        </div>
+        <!-- End Bg Parallax -->
+    </section>
+    <!-- End Parallax BG -->
+    <!-- Header Sticky One page
+      ============================================= -->
+    <header id="header" class="header-transparent sticky-onepage">
+        <div class="container">
+            <div class="row">
+                <div id="main-menu-trigger"><i class="fa fa-bars"></i></div>
+                <!-- Logo
+                            ============================================= -->
+                <div id="logo"><a data-scroll-goto="0" href="#" class="light-logo"><img src="img/logo.png"
+                                                                                        alt="Logo"></a> <a
+                        data-scroll-goto="0" href="#" class="dark-logo"><img src="img/logo_dark.png" alt="Logo"></a>
+                </div>
+                <!-- #logo end -->
+                <!-- Primary Navigation
+             ============================================= -->
+                <nav id="main-menu" class="dark">
+                    <ul>
+                        <li><a data-scroll-goto="0" href="#">
+                            <div>Home</div>
+                        </a></li>
+                        <li><a data-scroll-nav="1" href="#">
+                            <div>Multipurpose</div>
+                        </a></li>
+                        <li><a data-scroll-nav="2" href="#">
+                            <div>Stylish</div>
+                        </a></li>
+                        <li><a data-scroll-nav="3" href="#">
+                            <div>One Page</div>
+                        </a></li>
+                        <li><a data-scroll-nav="4" href="#">
+                            <div>Features</div>
+                        </a></li>
+
+                        <li><a data-scroll-nav="5" href="#">
+                            <div>Generate Color</div>
+                        </a></li>
+
+                    </ul>
+                </nav>
+                <!-- #main-menu end -->
+            </div>
+        </div>
+    </header>
+    <!-- End Header Sticky One Page -->
+    <div id="content">
+        <!-- The Demos
+        ============================================= -->
+        <section data-scroll-index="1" class=" padding-t-60  text-center our-menu">
+            <div class="col-md-8 col-md-offset-2">
+                <!-- Head Title -->
+                <div class="head_title">
+                    <i class="icon-intro"></i>
+                    <h1 class="animated" data-animation-delay="200" data-animation="fadeInLeftBig">DEMOS</h1>
+                    <span class="welcome animated" data-animation-delay="300" data-animation="fadeInRightBig">Choose your Demo</span>
+                </div>
+                <!-- End# Head Title -->
+
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+            <!-- Menu Items
+               ============================================= -->
+            <!-- Menu Container -->
+            <div class="menu-container intro-page">
+                <!-- Menu Type -->
+                <div class="menu-type">
+                    <!-- Menu Title -->
+                    <div class="menu-title padding-50"
+                         style="background-image: url('img/banner/breakfast_banner.jpg');">
+                        <h1 class="margin0 white font2 text-capitalize">Multipurpose</h1>
+                    </div>
+                    <!-- End Menu Title -->
+                    <div class="container-fluid padding-t-60">
+                        <div class="row">
+                            <!-- Item -->
+                            <div class="col-md-3 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                                 data-animation="fadeInUp">
+                                <a href="index01.html" target="_blank">
+                                    <img src="intro/multi_1.jpg" alt="" class="img-responsive center-block">
+                                </a>
+                                <h3>DEMO 01- layout One</h3>
+                                <h4 class="padding-b-20 font2 text-capitalize"><span>Zooming Effects Slide</span></h4>
+                                <a href="index01.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                            </div>
+                            <!-- End item -->
+
+                            <!-- Item -->
+                            <div class="col-md-3 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                                 data-animation="fadeInUp">
+                                <a href="index02.html" target="_blank">
+                                    <img src="intro/multi_2.jpg" alt="" class="img-responsive center-block">
+                                </a>
+                                <h3>DEMO 02- layout Two</h3>
+                                <h4 class="padding-b-20 font2 text-capitalize"><span>Youtube Full Screen</span></h4>
+                                <a href="index02.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                            </div>
+                            <!-- End item -->
+
+                            <!-- Item -->
+                            <div class="col-md-3 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                                 data-animation="fadeInUp">
+                                <a href="index03.html" target="_blank">
+                                    <img src="intro/multi_3.jpg" alt="" class="img-responsive center-block">
+                                </a>
+                                <h3>DEMO 03- layout Three</h3>
+                                <h4 class="padding-b-20 font2 text-capitalize"><span>Swiper Slider</span></h4>
+                                <a href="index03.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                            </div>
+                            <!-- End item -->
+
+                            <!-- Item -->
+                            <div class="col-md-3 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                                 data-animation="fadeInUp">
+                                <a href="index_animate.html" target="_blank">
+                                    <img src="intro/multi_4_animate.jpg" alt="" class="img-responsive center-block">
+                                </a>
+                                <h3>DEMO 04- Animated</h3>
+                                <h4 class="padding-b-20 font2 text-capitalize"><span>Zooming Effects Slide</span></h4>
+                                <a href="index_animate.html" class="btn btn-gold target=" _blank"">VIEW DEMO</a>
+                            </div>
+                            <!-- End item -->
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- End menu type -->
+            </div>
+            <!-- End Menu container -->
+        </section>
+
+        <section data-scroll-index="2" class=" padding-t-60 text-center our-menu intro-page">
+            <!-- Menu Title -->
+            <div class="menu-title padding-50" style="background-image: url('img/banner/launch_banner.jpg');">
+                <h1 class="margin0 white">STYLISH</h1>
+            </div>
+            <!-- End Menu Title -->
+            <div class="container-fluid padding-t-60">
+                <div class="row">
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_amrican.html" target="_blank">
+                            <img src="intro/style_amrican.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">AMRICAN <span class="label amrican font2 text-capitalize">Sauce</span>
+                        </h3>
+                        <a href="index_amrican.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_asian.html" target="_blank">
+                            <img src="intro/style_asian.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">ASIAN <span class="label asian font2 text-capitalize">Pepper</span>
+                        </h3>
+                        <a href="index_asian.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_burger.html" target="_blank">
+                            <img src="intro/style_burger.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Burger<span
+                                class="label burger font2 text-capitalize">Mozzarella</span></h3>
+                        <a href="index_burger.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_bakery.html" target="_blank">
+                            <img src="intro/style_bakery.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Bakery<span class="label bakery font2 text-capitalize">Pinky</span>
+                        </h3>
+                        <a href="index_bakery.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_pizza.html" target="_blank">
+                            <img src="intro/style_pizza.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Pizza<span class="label pizza font2 text-capitalize">Italian</span>
+                        </h3>
+                        <a href="index_pizza.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_cafe.html" target="_blank">
+                            <img src="intro/style_cafe.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Cafe<span class="label cafe font2 text-capitalize">Espresso</span></h3>
+                        <a href="index_cafe.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+                </div>
+            </div>
+
+            <!-- Menu Title -->
+            <div class="menu-title padding-50" style="background-image: url('img/banner/launch_banner.jpg');">
+                <h1 class="margin0 white">Boxed</h1>
+            </div>
+            <!-- End Menu Title -->
+            <div class="container-fluid padding-t-60">
+                <div class="row">
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="boxed/index01.html" target="_blank">
+                            <img src="intro/boxed_pattern.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Pattern BG <span
+                                class="label label-danger font2 text-capitalize">New</span></h3>
+                        <a href="boxed/index01.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="boxed/index_bg_img.html" target="_blank">
+                            <img src="intro/boxed_img.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Image BG <span
+                                class="label label-danger font2 text-capitalize">New</span></h3>
+                        <a href="boxed/index_bg_img.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="boxed/index_bg_color.html" target="_blank">
+                            <img src="intro/boxed_color.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Color BG<span
+                                class="label label-danger font2 text-capitalize">New</span></h3>
+                        <a href="boxed/index_bg_color.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                </div>
+            </div>
+        </section>
+
+
+        <section data-scroll-index="3" class=" padding-t-60 text-center our-menu intro-page">
+            <!-- Menu Title -->
+            <div class="menu-title padding-50" style="background-image: url('img/banner/dinner_banner.jpg');">
+                <h1 class="margin0 white">ONE PAGE</h1>
+            </div>
+            <!-- End Menu Title -->
+
+            <div class="container padding-t-40">
+                <div class="row">
+                    <!-- Item -->
+                    <div class="col-md-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_horizental.html" target="_blank">
+                            <img src="intro/one_horizental.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3>HORIZENTAL MENU</h3>
+                        <h4 class="padding-b-20 font2 text-capitalize"><span>Swiper Slider</span></h4>
+                        <a href="index_onepage_horizental.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-6 text-center animated mb60" data-animation-delay="500"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_vertical.html" target="_blank">
+                            <img src="intro/one_vertical.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3>VERTICAL MENU</h3>
+                        <h4 class="padding-b-20 font2 text-capitalize"><span>Swiper Slider</span></h4>
+                        <a href="index_onepage_vertical.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+                </div>
+            </div>
+
+            <!-- Menu Title -->
+            <div class="menu-title padding-50" style="background-image: url('img/banner/dinner_banner.jpg');">
+                <h1 class="margin0 white">EXTRA ONE PAGE OPTIONS</h1>
+            </div>
+            <!-- End Menu Title -->
+
+            <div class="container-fluid padding-t-60">
+                <div class="row">
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_animation.html" target="_blank">
+                            <img src="intro/one_animation.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Animation CSS</h3>
+                        <a href="index_onepage_animation.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_fade.html" target="_blank">
+                            <img src="intro/one_fade.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Fade Slide Full Screen</h3>
+                        <a href="index_onepage_fade.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_fullscreen.html" target="_blank">
+                            <img src="intro/one_fullscreen.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Background Full Screen</h3>
+                        <a href="index_onepage_fullscreen.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_fullwidth.html" target="_blank">
+                            <img src="intro/one_fullwidth.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Slider Full Width</h3>
+                        <a href="index_onepage_fullwidth.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_interactive.html" target="_blank">
+                            <img src="intro/one_interactive.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Interactive Background</h3>
+                        <a href="index_onepage_interactive.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_animation_bg.html" target="_blank">
+                            <img src="intro/one_animation_bg.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Animation Background</h3>
+                        <a href="index_onepage_animation_bg.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_parallax.html" target="_blank">
+                            <img src="intro/one_parallax.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Parallax Background</h3>
+                        <a href="index_onepage_parallax.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_slide_top.html" target="_blank">
+                            <img src="intro/one_slide_top.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Slide Top</h3>
+                        <a href="index_onepage_slide_top.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_slider.html" target="_blank">
+                            <img src="intro/one_slider.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Swiper Slider</h3>
+                        <a href="index_onepage_slider.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_video.html" target="_blank">
+                            <img src="intro/one_video.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">VIDEO HTML5</h3>
+                        <a href="index_onepage_video.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_viemo.html" target="_blank">
+                            <img src="intro/one_viemo.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Vimeo Background</h3>
+                        <a href="index_onepage_viemo.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_youtube.html" target="_blank">
+                            <img src="intro/one_youtube.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Youtube Background</h3>
+                        <a href="index_onepage_youtube.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+                    <!-- Item -->
+                    <div class="col-md-4 col-sm-6 text-center animated mb60" data-animation-delay="200"
+                         data-animation="fadeInUp">
+                        <a href="index_onepage_zooming.html" target="_blank">
+                            <img src="intro/one_zooming.jpg" alt="" class="img-responsive center-block">
+                        </a>
+                        <h3 class="padding-b-20">Zooming Slider</h3>
+                        <a href="index_onepage_zooming.html" class="btn btn-gold" target="_blank">VIEW DEMO</a>
+                    </div>
+                    <!-- End item -->
+
+
+                </div>
+            </div>
+        </section>
+        <!-- End our menu -->
+        <!-- Elements
+        ============================================= -->
+        <section data-scroll-index="4" class="text-center intro-page">
+            <div class="padding-100 grey-bg text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="mb60"><span>MAJESTY</span> ELEMENTS</h1>
+                        </div>
+                        <div class="col-md-6 mb60">
+                            <img src="intro/option_1.jpg" alt="" style="float:left">
+                        </div>
+                        <div class="col-md-6 mb60">
+                            <img src="intro/option_2.jpg" alt="" style="float:left">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-6 mb60">
+                            <img src="intro/option_3.jpg" alt="" style="float:left">
+                        </div>
+                        <div class="col-md-6 mb60">
+                            <img src="intro/option_4.jpg" alt="" style="float:left">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-6 mb60">
+                            <img src="intro/option_5.jpg" alt="" style="float:left">
+                        </div>
+                        <div class="col-md-6 mb60">
+                            <img src="intro/option_6.jpg" alt="" style="float:left">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-6 mb60">
+                            <img src="intro/option_7.jpg" alt="" style="float:left">
+                        </div>
+                        <div class="col-md-6 mb60">
+                            <img src="intro/option_8.jpg" alt="" style="float:left">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-6 mb60">
+                            <img src="intro/option_9.jpg" alt="" style="float:left">
+                        </div>
+                        <div class="col-md-6 mb60">
+                            <img src="intro/option_10.jpg" alt="" style="float:left">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-6 mb60">
+                            <img src="intro/option_11.jpg" alt="" style="float:left">
+                        </div>
+                        <div class="col-md-6 mb60">
+                            <img src="intro/option_12.jpg" alt="" style="float:left">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide home_2 dark reservation text-center">
+
+                <div id="slide-one-2-03">
+                    <!-- Bg Parallax -->
+                    <div class="bcg "
+                         data-center="background-position: 50% 0px;"
+                         data-bottom-top="background-position: 50% 100px;"
+                         data-top-bottom="background-position: 50% -100px;"
+                         data-anchor-target="#slide-one-2-03"
+                         style="background-image:url('img/background/bg_11.jpg'); background-repeat:repeat"
+                    >
+                        <!-- Bg Transparent -->
+                        <div class="bg-transparent padding-100">
+                            <div class="container">
+                                <div class="row">
+                                    <!-- Head Title -->
+                                    <div class="head_title">
+                                        <i class="icon-intro"></i>
+                                        <h1>Features</h1>
+                                        <span class="welcome">Rich Shortcodes & Options</span>
+                                    </div>
+                                    <!-- End# Head Title -->
+
+                                    <!-- Reservation form style2 -->
+                                    <div class="reserv_form reserv_style2">
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_1.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_2.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_3.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_4.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_5.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_6.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_7.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_8.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_9.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_10.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_11.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_12.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_13.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_14.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_15.png" alt="" style="float:left">
+                                        </div>
+                                        <div class="col-md-3 col-sm-4 mb60 animated" data-animation="fadeIn">
+                                            <img src="intro/features_16.png" alt="" style="float:left">
+                                        </div>
+
+                                    </div>
+                                    <!-- End reservation form style2 -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- en of bg transparent -->
+                    </div>
+                    <!-- End Bg Parallax -->
+                </div>
+            </div>
+            <!-- End Reservation -->
+        </section>
+
+        <!-- Elements
+        ============================================= -->
+        <section data-scroll-index="5" class="text-center intro-page">
+            <div class="padding-100 grey-bg text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="mb60"><span>GENERATE</span> YOUR COLOR</h1>
+                        </div>
+                        <form action="./" method="post">
+                            <div class="col-md-6 mb60">
+                                <h3>Main Color</h3>
+                                <div id="main-color"></div>
+                            </div>
+                            <div class="col-md-6 mb60">
+                                <h3>LINK Hover Background </h3>
+                                <div id="btn-bg-over"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-md-6 mb60">
+                                <h3>LINK Hover Border</h3>
+                                <div id="btn-border-color"></div>
+                            </div>
+                            <div class="col-md-6 mb60">
+                                <h3>LINK POST META</h3>
+                                <div id="link-post-meta"></div>
+                            </div>
+                            <input type="hidden" id="maincolor" name="maincolor" value="c59d5f">
+                            <input type="hidden" id="btnbgover" name="btnbgover" value="b18540">
+                            <input type="hidden" id="btnbordercolor" name="btnbordercolor" value="a97f3d">
+                            <input type="hidden" id="linkpostmeta" name="linkpostmeta" value="FFFFFF">
+                            <div class="col-md-12">
+                                <a href="#" class="blueButton btn black btn-gold" id="download">Generate your color</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End Reservation -->
+        </section>
+
+
+    </div>
+    <!-- End content -->
+    <section class="extra_touch padding-50 text-center">
+        <div class="container">
+            <div class="row">
+                <h2>DO YOU LIKE OUR <span>MAJESTY</span> TEMPLATE ?</h2>
+                <a href="http://themeforest.net/item/majesty-responsive-restaurant-html5-template/11620777"
+                   class="btn black btn-gold ">PURCHASE NOW</a></div>
+        </div>
+    </section>
+    <!-- Footer
+      ============================================= -->
+    <footer id="footer" class="dark mt0">
+        <!-- Footer logo !-->
+        <div class="footer_logo text-center mt0" style="margin-top:0" data-animation="fadeInUp"><img
+                src="img/footer_logo.png" alt="logo">
+            <p> 2015 ALL RIGHT RESERVED. DESIGNED BY <a target="_blank" href="http://themeforest.net/user/creative-wp">CREATIVE
+                WP</a></p>
+        </div>
+        <!-- End Footer logo !-->
+    </footer>
+    <!-- End footer -->
+    <!--  scroll to top of the page-->
+    <a href="#" id="scroll_up"><i class="fa fa-angle-up"></i></a></div>
+<!-- End wrapper -->
+<!-- Core JS Libraries -->
+<script src="javascripts/libs/jquery.min.js" type="text/javascript"></script>
+<script src="javascripts/libs/plugins.js"></script>
+<!-- JS Plugins -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="javascripts/libs/modernizr.js"></script>
+<!-- for this page only JS -->
+<script src="https://maps.googleapis.com/maps/api/js?key=&amp;sensor=false&amp;extension=.js"></script>
+<!-- JS Custom Codes -->
+<script src="javascripts/custom/main.js"></script>
+
+<!-- Generate Color Files Required -->
+<script type="text/javascript" src="intro/generatecolor/js/colpick.js"></script>
+<script src="intro/generatecolor/js/jquery.generateFile.js"></script>
+<script src="intro/generatecolor/js/script.js"></script>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-63307655-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</body>
+</html>
